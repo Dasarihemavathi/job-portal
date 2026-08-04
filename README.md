@@ -5,6 +5,11 @@ A full-stack job portal built with **Django REST Framework** (backend API) and
 **Recruiter**, and **Admin**.
 
 ---
+## 🚀 Live Links
+
+🌐 Frontend: https://job-portal-s3wy.vercel.app
+
+⚙️ Backend API: https://job-portal-197b.onrender.com
 
 ## ✅ Features
 
