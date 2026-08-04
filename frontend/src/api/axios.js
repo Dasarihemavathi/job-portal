@@ -26,6 +26,7 @@ api.interceptors.response.use(
     const originalRequest = error.config;
     if (error.response && error.response.status === 401 && !originalRequest._retry) {
       const refreshToken = localStorage.getItem('refresh_token');
+      
       if (!refreshToken) {
         localStorage.clear();
         window.location.href = '/login';
